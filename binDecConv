@@ -1,10 +1,11 @@
 #! /usr/bin/python3
 
 
-choice = int(input("1: Binary to Decimal conversion "+ "\n2: Decimal to Binary conversion\nEnter choice: "))
+#choice = int(input("1: Binary to Decimal conversion "+ "\n2: Decimal to Binary conversion\nEnter choice: "))
 print("1: Decimal to Binary")
 print("2: Binary to Decimal")
 bin = ""
+choice=int(input())
 if choice ==1:
     numb = int(input("Enter your whole decimal number (integer): "))
     while numb > 1:
