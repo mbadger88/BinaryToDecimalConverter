@@ -1,9 +1,7 @@
-#! /usr/bin/python3
+#!/usr/bin/env python3
 
 
-choice = int(input("1: Binary to Decimal conversion "+ "\n2: Decimal to Binary conversion\nEnter choice: "))
-print("1: Decimal to Binary")
-print("2: Binary to Decimal")
+choice = int(input("1: Decimal to Binary conversion"+ "\n2: Binary to Decimal conversion\nEnter choice: "))
 bin = ""
 if choice ==1:
     numb = int(input("Enter your whole decimal number (integer): "))
